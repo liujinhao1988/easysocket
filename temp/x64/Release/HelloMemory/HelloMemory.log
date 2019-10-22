@@ -1,0 +1,29 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Alloctor.cpp
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\MemoryMgr.hpp(138): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\CELLObjectPool.hpp(134): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\CELLObjectPool.hpp(112): note: 编译类 模板 成员函数“void CELLObjectPool<Type,5>::initPool(void)”时
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\CELLObjectPool.hpp(27): note: 参见对正在编译的函数 模板 实例化“void CELLObjectPool<Type,5>::initPool(void)”的引用
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\CELLObjectPool.hpp(162): note: 参见对正在编译的类 模板 实例化“CELLObjectPool<Type,5>”的引用
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\CELLObjectPool.hpp(161): note: 编译类 模板 成员函数“void ObjectPoolBase<ClassA,5>::operator delete(void *)”时
+  main.cpp(159): note: 参见对正在编译的函数 模板 实例化“void ObjectPoolBase<ClassA,5>::operator delete(void *)”的引用
+  main.cpp(15): note: 参见对正在编译的类 模板 实例化“ObjectPoolBase<ClassA,5>”的引用
+  正在生成代码
+  All 92 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  HelloMemory.vcxproj -> C:\Users\liujinhao\Documents\Visual Studio 2015\Projects\CppNet100\HelloSocket\../bin/x64/Release\HelloMemory.exe
+  HelloMemory.vcxproj -> C:\Users\liujinhao\Documents\Visual Studio 2015\Projects\CppNet100\HelloSocket\../bin/x64/Release\HelloMemory.pdb (Full PDB)

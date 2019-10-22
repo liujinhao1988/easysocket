@@ -1,0 +1,70 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(106): warning C4477: “printf”: 格式字符串“%llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“CELLObjectPool<Type,5>::NodeHeader *”
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(87): note: 编译类 模板 成员函数“void *CELLObjectPool<Type,5>::allocObjMemory(std::size_t)”时
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(157): note: 参见对正在编译的函数 模板 实例化“void *CELLObjectPool<Type,5>::allocObjMemory(std::size_t)”的引用
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(162): note: 参见对正在编译的类 模板 实例化“CELLObjectPool<Type,5>”的引用
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(161): note: 编译类 模板 成员函数“void ObjectPoolBase<ClassA,5>::operator delete(void *)”时
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\main.cpp(159): note: 参见对正在编译的函数 模板 实例化“void ObjectPoolBase<ClassA,5>::operator delete(void *)”的引用
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\main.cpp(15): note: 参见对正在编译的类 模板 实例化“ObjectPoolBase<ClassA,5>”的引用
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(106): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“std::size_t”
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(106): note: 请考虑在格式字符串中使用“%zd”
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(62): warning C4477: “printf”: 格式字符串“%llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“CELLObjectPool<Type,5>::NodeHeader *”
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(59): note: 编译类 模板 成员函数“void CELLObjectPool<Type,5>::freeObjMemory(void *)”时
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(162): note: 参见对正在编译的函数 模板 实例化“void CELLObjectPool<Type,5>::freeObjMemory(void *)”的引用
+          with
+          [
+              Type=ClassA
+          ]
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(134): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(112): note: 编译类 模板 成员函数“void CELLObjectPool<Type,5>::initPool(void)”时
+          with
+          [
+              Type=ClassA
+          ]
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\cellobjectpool.hpp(26): note: 参见对正在编译的函数 模板 实例化“void CELLObjectPool<Type,5>::initPool(void)”的引用
+          with
+          [
+              Type=ClassA
+          ]
+  Alloctor.cpp
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(84): warning C4477: “printf”: 格式字符串“%llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“MemoryBlock *”
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(84): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“std::size_t”
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(84): note: 请考虑在格式字符串中使用“%zd”
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(138): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(113): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“std::size_t”
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(113): note: 请考虑在格式字符串中使用“%zd”
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(113): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::size_t”
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(113): note: 请考虑在格式字符串中使用“%zd”
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(210): warning C4477: “printf”: 格式字符串“%llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“MemoryBlock *”
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(210): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“std::size_t”
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(210): note: 请考虑在格式字符串中使用“%zd”
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\hellomemory\memorymgr.hpp(219): warning C4477: “printf”: 格式字符串“%llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“MemoryBlock *”
+  正在生成代码...
+  HelloMemory.vcxproj -> C:\Users\liujinhao\Documents\Visual Studio 2015\Projects\CppNet100\HelloSocket\../bin/x64/Debug\HelloMemory.exe
+  HelloMemory.vcxproj -> C:\Users\liujinhao\Documents\Visual Studio 2015\Projects\CppNet100\HelloSocket\../bin/x64/Debug\HelloMemory.pdb (Full PDB)

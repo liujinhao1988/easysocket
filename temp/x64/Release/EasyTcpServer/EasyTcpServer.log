@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  server.cpp
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\easytcpserver\CELLLog.hpp(45): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\easytcpserver\CELLLog.hpp(67): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: 参见“gmtime”的声明
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\easytcpserver\CELLServer.hpp(141): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\easytcpserver\CELLServer.hpp(212): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\easytcpserver\CELLServer.hpp(246): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\easytcpserver\EasyTcpServer.hpp(244): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+server.cpp(118): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\easytcpserver\CELLLog.hpp(104): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: 参见“gmtime”的声明
+  c:\users\liujinhao\documents\visual studio 2015\projects\cppnet100\hellosocket\easytcpserver\CELLLog.hpp(48): note: 参见对正在编译的函数 模板 实例化“void CELLLog::Info<const char*,const char*>(const char *,const char *,const char *)”的引用
+  正在生成代码
+  All 1431 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  EasyTcpServer.vcxproj -> C:\Users\liujinhao\Documents\Visual Studio 2015\Projects\CppNet100\HelloSocket\../bin/x64/Release\EasyTcpServer.exe
+  EasyTcpServer.vcxproj -> C:\Users\liujinhao\Documents\Visual Studio 2015\Projects\CppNet100\HelloSocket\../bin/x64/Release\EasyTcpServer.pdb (Full PDB)
